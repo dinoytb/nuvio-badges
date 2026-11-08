@@ -778,7 +778,7 @@
     {
       "id": "atmos-truehd",
       "name": "ATMOS TRUEHD",
-      "pattern": "(?i)[♫♪♩](?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos-truehd.png?rev=392b4d3d7786",
       "isEnabled": true,
       "type": "filter",
@@ -791,7 +791,7 @@
     {
       "id": "atmos-digital",
       "name": "ATMOS DIGITAL+",
-      "pattern": "(?i)[♫♪♩](?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos-digital-plus.png?rev=01dd33497362",
       "isEnabled": true,
       "type": "filter",
@@ -804,7 +804,7 @@
     {
       "id": "atmos",
       "name": "Atmos",
-      "pattern": "(?i)[♫♪♩](?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos.png?rev=6b4f42cac5e6",
       "isEnabled": true,
       "type": "filter",
@@ -817,7 +817,7 @@
     {
       "id": "dts-x",
       "name": "DTS:X",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dts-x.png?rev=034352dd5569",
       "isEnabled": true,
       "type": "filter",
@@ -830,7 +830,7 @@
     {
       "id": "truehd",
       "name": "TrueHD",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-truehd.png?rev=8d427378f838",
       "isEnabled": true,
       "type": "filter",
@@ -843,7 +843,7 @@
     {
       "id": "dts-hd-ma",
       "name": "DTS-HD MA",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?hd.?ma)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?hd.?ma)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dts-hd-ma.png?rev=1062843754a3",
       "isEnabled": true,
       "type": "filter",
@@ -856,7 +856,7 @@
     {
       "id": "flac",
       "name": "FLAC",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/flac.png?rev=9905e2e7ff17",
       "isEnabled": true,
       "type": "filter",
@@ -869,7 +869,7 @@
     {
       "id": "dts-hd",
       "name": "DTS-HD",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bma\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?hd)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bma\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?hd)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dts-hd.png?rev=2d157b07035c",
       "isEnabled": true,
       "type": "filter",
@@ -882,7 +882,7 @@
     {
       "id": "dd",
       "name": "DD+",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-digital-plus.png?rev=0c30d035d444",
       "isEnabled": true,
       "type": "filter",
@@ -895,7 +895,7 @@
     {
       "id": "dts",
       "name": "DTS",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?hd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bdts\\b)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?x)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts.?hd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bdts\\b)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dts.png?rev=861ded6d03a8",
       "isEnabled": true,
       "type": "filter",
@@ -908,7 +908,7 @@
     {
       "id": "opus",
       "name": "OPUS",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bopus\\b)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bopus\\b)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/opus.png?rev=a430a40aeece",
       "isEnabled": true,
       "type": "filter",
@@ -921,7 +921,7 @@
     {
       "id": "dd-2",
       "name": "DD",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bopus\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\baac\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bdd\\b)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bopus\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\baac\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bdd\\b)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-digital.png?rev=cccc2d6ee532",
       "isEnabled": true,
       "type": "filter",
@@ -934,7 +934,7 @@
     {
       "id": "aac",
       "name": "AAC",
-      "pattern": "(?i)[♫♪♩](?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bopus\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\baac\\b)",
+      "pattern": "(?i)(?:[♫♪♩]|^)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*dts)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bflac\\b)(?![^▣♫♪♩♯◇✓⛿⚑»🛡]*\\bopus\\b)(?=[^▣♫♪♩♯◇✓⛿⚑»🛡]*\\baac\\b)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/aac.png?rev=194f7ad171f8",
       "isEnabled": true,
       "type": "filter",
@@ -1741,7 +1741,7 @@
       "id": "multi-language",
       "name": "Multi Language",
       "pattern": "(?i)(?m)^(?=[^\\n]*[✓⛿⚑])(?![^\\n]*\\bsub\\b)(?=[^\\n]*\\bmulti\\b)",
-      "imageURL": "https://raw.githubusercontent.com/dinoytb/nuvio-badges/main/multi-language.png",
+      "imageURL": "https://muse.ai/files/1430332143494971/1805096023975718/cqq5119v69fcgka6agz7wsbb/multi-language.png",
       "isEnabled": true,
       "type": "filter",
       "groupId": "gsub",
