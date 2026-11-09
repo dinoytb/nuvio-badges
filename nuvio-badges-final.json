@@ -1741,7 +1741,7 @@
       "id": "multi-language",
       "name": "Multi Language",
       "pattern": "(?i)(?m)^(?=[^\\n]*[✓⛿⚑])(?![^\\n]*\\bsub\\b)(?=[^\\n]*\\bmulti\\b)",
-      "imageURL": "https://muse.ai/files/1430332143494971/1805096023975718/cqq5119v69fcgka6agz7wsbb/multi-language.png",
+      "imageURL": "https://raw.githubusercontent.com/dinoytb/nuvio-badges/main/multi-language.png",
       "isEnabled": true,
       "type": "filter",
       "groupId": "gsub",
