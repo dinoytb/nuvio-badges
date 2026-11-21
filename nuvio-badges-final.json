@@ -882,7 +882,7 @@
     {
       "id": "dd",
       "name": "DD+",
-      "pattern": "(?i)[♫♪♩♬](?![^▣♫♪♩♬♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♬♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♬♯◇✓⛿⚑»🛡]*dts)(?=[^▣♫♪♩♬♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))",
+      "pattern": "(?i)[♫♪♩♬](?![^▣♫♪♩♬♯◇✓⛿⚑»🛡]*\\batmos\\b)(?![^▣♫♪♩♬♯◇✓⛿⚑»🛡]*truehd)(?![^▣♫♪♩♬♯◇✓⛿⚑»🛡]*dts.?x)(?![^▣♫♪♩♬♯◇✓⛿⚑»🛡]*dts.?hd)(?=[^▣♫♪♩♬♯◇✓⛿⚑»🛡]*(dd\\+|digital\\+))",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-digital-plus.png?rev=0c30d035d444",
       "isEnabled": true,
       "type": "filter",
